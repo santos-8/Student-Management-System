@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$wzr&3e$evx94rt5u+2wijw4#s4@n!zxv3h%+yr^_k1e$)lo8m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['student-management-system-l3j2.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 MEDIA_URL="/media/"
 MEDIA_ROOT=os.path.join(BASE_DIR,"media")
